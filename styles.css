@@ -1,0 +1,177 @@
+
+
+/*BASE STYLES*/
+
+ul,
+ol{
+
+    list-style: none;
+}
+
+.section {}
+
+.link{
+
+    text-decoration: none;
+}
+
+
+/*HEADER STYLES*/
+
+.header {
+}
+.header-logo {
+}
+.header-logo-img {
+}
+.header-nav {
+}
+.header-nav-list {
+}
+.header-nav-item {
+}
+.header-nav-link {
+}
+.header-contact {
+}
+.header-btn {
+}
+
+/*HERO STYLE*/
+
+.hero {
+}
+.hero-list {
+}
+.hero-item {
+}
+.hero-link {
+}
+.link {
+}
+.hero-uppertitle {
+}
+.hero-title {
+}
+.hero-subtitle {
+}
+.hero-list-slide {
+}
+.hero-item-slide {
+}
+.hero-btn-slide {
+}
+
+
+/*ABOUT STYLES*/
+
+.about {
+}
+.about-list {
+}
+.about-item {
+}
+.about-img {
+}
+.about-uppertitle {
+}
+.about-title {
+}
+.about-subtitle {
+}
+.about-desc {
+}
+.about-btn {
+}
+
+/*PRICE STYLE*/
+
+.price-uppertitle {
+}
+.price-title {
+}
+.price-list {
+}
+.price-item {
+}
+.price-list-sub {
+}
+.price-item-sub {
+}
+.price-btn {
+}
+
+/*BENEFITS STYLE*/
+
+.benefits-list {
+}
+.benefits-item {
+}
+.benefits {
+}
+.benefits-desc {
+}
+.benefits-uppertitle {
+}
+.benefits-title {
+}
+.benefits-text {
+}
+
+/*TEAM STYLES*/
+
+.team-uppertitle {
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+}
+.team-pic {
+}
+.team-person {
+}
+.team-desc {
+}
+
+/*GALLERY STYLES*/
+
+.gallery-uppertitle {
+}
+.gallery-title {
+}
+.gallery-list {
+}
+.gallery-pic {
+}
+
+/*CONTACTS STYLES*/
+
+.contact-title {
+}
+.contact {
+}
+.contact-link {
+}
+.link {
+}
+.contact-subtitle {
+}
+.contact-desc {
+}
+
+/*FOOTER STYLES*/
+
+.footer {
+}
+.container {
+}
+.footer-copyright {
+}
+.media {
+}
+.media-item {
+}
+.media-link {
+}
