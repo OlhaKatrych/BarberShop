@@ -1,4 +1,24 @@
+:root{
 
+    /*Colors*/
+
+    --main-txt-cl: #555555;
+    --secondery-txt-cl: #303030; 
+    --main-bg-cl: #ffffff; 
+    --title-light: #ffffff;
+    --accent-cl: #FF6C00;
+
+}
+
+body{
+
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.36px;
+    color: var(--main-txt);
+
+}
 
 /*BASE STYLES*/
 
@@ -15,10 +35,68 @@ ol{
     text-decoration: none;
 }
 
+.uppertitle{
+
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: var(--secondery-txt-cl);
+}
+
+.title{
+
+    font-size: 42px;
+    font-family: Raleway;
+    line-height: 1.17;
+    letter-spacing: 2.1px;
+    color: var(--secondery-txt-cl);
+}
+
+.title-light{
+
+    color: var(--title-light); 
+}
+
+.btn{
+
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: 1.08px;
+    text-transform: uppercase;
+    color: var(--title-light);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+
+/*PATTERN*/
+
+.visually-hidden{
+
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+
+}
+
 
 /*HEADER STYLES*/
 
 .header {
+
+    background-color: #111319;
 }
 .header-logo {
 }
@@ -30,16 +108,37 @@ ol{
 }
 .header-nav-item {
 }
-.header-nav-link {
-}
+.header-nav-link,
 .header-contact {
+
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: 1.2px;
+    color: var(--title-light);
 }
-.header-btn {
+
+.header-nav-link:hover,
+.header-nav-link:focus,
+.header-contact:hover,
+.header-contact:focus {
+
+    color: var(--accent-cl);
 }
+
+.btn:hover,
+.btn:focus{
+
+    color: var(--title-light);
+    background-color: var(--accent-cl);
+}
+
 
 /*HERO STYLE*/
 
 .hero {
+
+    background-color: #111319;
 }
 .hero-list {
 }
@@ -85,6 +184,11 @@ ol{
 }
 
 /*PRICE STYLE*/
+
+.price{
+
+    background-color: #111319;
+}
 
 .price-uppertitle {
 }
@@ -148,9 +252,16 @@ ol{
 
 /*CONTACTS STYLES*/
 
+.contacts{
+
+    background-color: #111319;
+}
+
 .contact-title {
 }
 .contact {
+
+    font-style: normal;
 }
 .contact-link {
 }
@@ -175,3 +286,4 @@ ol{
 }
 .media-link {
 }
+
